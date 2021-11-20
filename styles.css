@@ -1,0 +1,39 @@
+.grid-container { 
+display: grid;
+background-color: #0A0A1E;
+height: 500px;
+margin-top: 170px;
+margin-left: 70px;
+margin-right: 70px;
+
+}
+
+.back-ground {
+    background-image: url(/img/Background.png);
+}
+
+.card {
+display: flex;
+background-color: #1D183F;
+width: 90%;
+height: 400px;
+margin: 0 auto;
+align-self: center;
+}
+
+#img-container {
+ justify-content: flex-end;
+ align-items: flex-end;
+
+}
+
+#pic {
+    
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+}
+
+.card-contain {
+    width: 50%;
+}
