@@ -15,8 +15,8 @@ margin-right: 70px;
 .card {
 display: flex;
 background-color: #1D183F;
-width: 90%;
-height: 400px;
+width: 80%;
+height: 300px;
 margin: 0 auto;
 align-self: center;
 }
@@ -24,7 +24,6 @@ align-self: center;
 #img-container {
  justify-content: flex-end;
  align-items: flex-end;
-
 }
 
 #pic {
@@ -36,4 +35,38 @@ align-self: center;
 
 .card-contain {
     width: 50%;
+}
+
+.card-contain,
+h1,p{
+    color: white;
+}
+
+.card-contain,
+span{
+    color: #AB58CD;
+}
+
+.card-text{
+    padding: 40px;
+}
+
+.card-contain,
+p{
+    color: rgb(194, 194, 194);
+}
+
+.Tex-boot{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.marg{
+    margin: 0;
+}
+
+.marg,h3{
+   color: white;
 }
